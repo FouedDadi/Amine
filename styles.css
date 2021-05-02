@@ -64,6 +64,7 @@ body {
   width: 35%;
   margin-left: 8%;
 }
+
 .propos .text1 {
   width: 45%;
   float: right;
@@ -73,6 +74,18 @@ body {
   .propos .text1,
   .ref .text2 {
     font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .card-img-top {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .navbar a {
+    margin-left: -10%;
   }
 }
 
